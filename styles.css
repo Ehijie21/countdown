@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url("/images/reds.jfif");
+    height: 100%;
+    
+    
+    color: blueviolet;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#img{
+    width: 100%;
+    height: 250px;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.gift-img{
+    width: 35%;
+    height: 100%;
+    margin-left: 10%;
+}
+h3 {
+    text-align: center;
+    font-size: 4.5cap;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(161, 219, 161);
+}
+.giveaway {
+    text-align: center;
+    font-size: 2cap;
+}
+p{
+    text-align: center;
+    color: rgb(51, 2, 2);
+    font-size: 4cap;
+}
+h4 {
+    color: rgb(1, 15, 1);
+}
+
+h1{
+    font-weight: normal;
+    font-size: 60px;
+    color: red;
+    margin: 15px 0 40px;
+}
+
+.countdown {
+    display: flex;
+    transform: scale(2);
+    position: sticky;
+    justify-content: center;
+}
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.time h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1;
+    margin: 0 0 5px;
+    color: rgb(80, 30, 30);
+}
